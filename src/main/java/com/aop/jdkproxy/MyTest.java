@@ -32,6 +32,7 @@ public class MyTest {
         SomeService someService = (SomeService) new MyProxyFactor();
         someService.doInsert();
         System.out.println("==================");
+        System.out.println("begin");
         someService.doUpdate();
     }
 }
